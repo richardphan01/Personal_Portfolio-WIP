@@ -96,6 +96,7 @@ float: left;
     margin-right: 10%;
     margin-left: 10%;
     margin-top: 5%;
+    width: 100%;
 
 }
 #base-container:after{
