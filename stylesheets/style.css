@@ -76,15 +76,15 @@ h1 {
 }
 
 #base-text{
-width: 50%;
-float: left;
+    width: 50%;
+    float: left;
     text-align: center;
 }
 
 #display-photo {
     width: 50%;
     float: right;
-    text-align: right;
+    text-align: center;
     
 
 }
