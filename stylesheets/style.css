@@ -1,10 +1,10 @@
 /* FONTS */
 
-/*@font-face {
+@font-face {
     font-family: raleway-regular;
-    src: url("./fonts/Raleway-Regular.ttf");
+    src: url("../fonts/Raleway-Regular.ttf");
 }
-*/
+
 
 /* Tags */
 
@@ -14,16 +14,15 @@ body {
     font-family: raleway-regular, sans-serif;
     font-size: 24;
     color: black;
-    background-color:rgb(245,245,245);
+    background-color:rgb(240,240,240);
     width: 100%;
-
+    overflow-x:hidden;
 }
 
 h1 {
     font-size: 2em;
     font-weight: 400;
     line-height: 150%;
-    margin-bottom: 3em;
     padding-top: 1em;
     font-family: raleway-regular, sans-serif;
 
@@ -35,36 +34,28 @@ h1 {
     width: 100%;
 }
 
-.main-nav {
-    list-style-type:none;
-    margin-right:10%;
-    margin-left:10%;
-    margin-top:0;
-    padding:0;
-    overflow: hidden;
-    display: 0;
-    background-color:rgb(240,240,240);
-    top: 0;
-    width: inherit;
-    max-width: inherit;
-    
+.nav-link {
+    color:black;
+    text-decoration:none;
+    font-size:1em;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.nav-link-2 {
+    color:black;
+    text-decoration:none;
+    font-size:1em;
+}
+
+.main-nav li {
+    display:inline;
 }
 
 .navbar {
-    z-index: 1;
-    margin: inherit;
-    width: inherit;
-    margin-top: 2%;
+    overflow:hidden;
+    border-bottom: 1px solid black;
     
-}
-
-.nav-link {
-    display: inline;
-    color: black;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none; 
-    float: right;   
 }
 
 /* IDs */
@@ -72,31 +63,35 @@ h1 {
 #rich-img {
     max-width: 400px;
     max-height:auto;
+    margin-top:-6%;
     
 }
 
 #base-text{
     width: 50%;
     float: left;
-    text-align: center;
+    text-align:left;
+    display:flex;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#text-form {
+    width: 80%;
+    margin-left: 10%;
 }
 
 #display-photo {
     width: 50%;
     float: right;
-    text-align: center;
-    
-
+    display:block;
+    text-align:right;
 }
 #base-container {
     display: inline;
     text-align: left;
-    overflow:auto;
-    float: left;
-    padding: 10px;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 5%;
     width: 100%;
 
 }
@@ -112,3 +107,12 @@ h1 {
     border-bottom: 1px solid purple;
     cursor: pointer;
 }
+
+#column-shift {
+    margin-right: 20%;
+}
+
+.container {
+    margin-top:15%;
+}
+
