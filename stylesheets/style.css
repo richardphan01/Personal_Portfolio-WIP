@@ -78,6 +78,7 @@ h1 {
 #base-text{
 width: 50%;
 float: left;
+    text-align: center;
 }
 
 #display-photo {
