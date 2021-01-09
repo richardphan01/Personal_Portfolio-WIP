@@ -13,10 +13,11 @@
 body {
     font-family: raleway-regular, sans-serif;
     font-size: 24;
-    color: black;
-    background-color:rgb(240,240,240);
+    color: #d6daeb;
+    background-color:#000018;
     width: 100%;
     overflow-x:hidden;
+    margin:0;
 }
 
 h1 {
@@ -28,14 +29,16 @@ h1 {
 
 }
 
+
+
 /* CLASSES */
 .dark-bg {
-    background-color:rgb(240,240,240);
+    background-color:#000018;
     width: 100%;
 }
 
 .nav-link {
-    color:black;
+    color:#d6daeb;
     text-decoration:none;
     font-size:1em;
     margin-left:5%;
@@ -43,7 +46,7 @@ h1 {
 }
 
 .nav-link-2 {
-    color:black;
+    color:#d6daeb;
     text-decoration:none;
     font-size:1em;
 }
@@ -54,14 +57,16 @@ h1 {
 
 .navbar {
     overflow:hidden;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(113,71,128);
     
 }
 
 /* IDs */
 
 #rich-img {
-    max-width: 400px;
+    width: auto;
+    height: auto;
+    max-width: 500px;
     max-height:auto;
     margin-top:-6%;
     
@@ -115,4 +120,30 @@ h1 {
 .container {
     margin-top:15%;
 }
+
+.project-container {
+    width:80%;
+    float: left;
+    text-align:left;
+    display:inline-block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+#smart-city-program, #space-evade, #tz-converter {
+    width: 80%; 
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border: #d6daeb 1px solid;
+    padding: 0.5%;  
+}
+
+#link-project_container {
+    margin-top: 15%;
+}
+
+
+
 
