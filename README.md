@@ -1,2 +1,2 @@
-# richardphan01.github.io/Personal_Portfolio-WIP
+# richardphan01.github.io/Portfolio
 
