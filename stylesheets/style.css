@@ -16,12 +16,12 @@ body {
     color: #d6daeb;
     background-color:#000018;
     width: 100%;
-    overflow-x:hidden;
+    overflow-x:auto;
     margin:0;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 400;
     line-height: 150%;
     padding-top: 1em;
@@ -88,6 +88,10 @@ h1 {
     margin-left: 10%;
 }
 
+#text-form:after {
+    
+}
+
 #display-photo {
     width: 50%;
     float: right;
@@ -113,6 +117,14 @@ h1 {
     cursor: pointer;
 }
 
+#hlight-text-proj {
+    color: purple;
+    padding-bottom: .075em;
+    border-bottom: 1px purple solid;
+    cursor:pointer;
+    
+}
+
 #column-shift {
     margin-right: 20%;
 }
@@ -121,29 +133,39 @@ h1 {
     margin-top:15%;
 }
 
-.project-container {
-    width:80%;
-    float: left;
-    text-align:left;
-    display:inline-block;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+.project-container-1 {
+    margin-top: 20%;
+}
+.project-container-1, .project-container-2, .project-container-3 {
+    width:82.5%;
+    border: #d6daeb 1px solid;
+    margin-left:7.5%;
+    margin-right:-5%;
+    overflow:hidden;
+    box-sizing:border-box;
+    margin-bottom:5%;
+
+    
 }
 
 #smart-city-program, #space-evade, #tz-converter {
-    width: 80%; 
-    margin-left: 10%;
-    margin-bottom: 5%;
-    border: #d6daeb 1px solid;
-    padding: 0.5%;  
+    float: right;
+    padding: 10%;
+    width: 30%;
 }
 
 #link-project_container {
-    margin-top: 15%;
+    margin-top: 14%;
 }
 
+.project-text {
+    padding-left: 0.5%;
+}
 
-
+#smart-city, #space-evade-img, #tz-converter-img {
+    width:30%;
+    float: left;
+    height: auto;
+    padding: 5%;
+}
 
