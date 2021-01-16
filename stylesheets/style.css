@@ -40,7 +40,7 @@ h1 {
 .nav-link {
     color:#d6daeb;
     text-decoration:none;
-    font-size:1vw;
+    font-size:1em;
     margin-left:5%;
     margin-right:5%;
 }
@@ -48,7 +48,7 @@ h1 {
 .nav-link-2 {
     color:#d6daeb;
     text-decoration:none;
-    font-size:1vw;
+    font-size: 1em;
 }
 
 .main-nav li {
@@ -56,43 +56,47 @@ h1 {
 }
 
 .navbar {
+    z-index: 1;
     overflow:hidden;
-    border-bottom: 1px solid rgb(113,71,128);
     
+} 
+.main-nav {
+    text-align: right;
 }
 
 /* IDs */
 
+#nav-border {
+    border-bottom: 1px solid rgb(113,71,128);
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+   
+}
 #rich-img {
     width: auto;
     height: auto;
     max-width: 80%;
     max-height:auto;
-    margin-top:-6%;
     
 }
 
 #base-text{
     width: 50%;
     float: left;
-    text-align:left;
-    display:flex;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
 }
 
 #text-form {
     width: 80%;
     margin-left: 10%;
+    margin-top:7.5%;
 }
 
 #display-photo {
     width: 50%;
     float: right;
-    display:block;
-    text-align:right;
+    text-align: center;
+    
 }
 #base-container {
     display: inline;
@@ -100,6 +104,7 @@ h1 {
     width: 100%;
 
 }
+
 #base-container:after{
     content:"";
     display: table;
@@ -121,13 +126,7 @@ h1 {
     
 }
 
-#column-shift {
-    margin-right: 20%;
-}
 
-.container {
-    margin-top:15%;
-}
 
 .project-container-1 {
     margin-top: 20%;
@@ -166,6 +165,4 @@ h1 {
     height: auto;
     padding: 10%;
 }
-
-
 
