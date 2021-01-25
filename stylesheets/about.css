@@ -1,0 +1,64 @@
+/* FONTS */
+
+@font-face {
+    font-family: raleway-regular;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+
+/* Tags */
+
+
+
+body {
+    font-family: raleway-regular, sans-serif;
+    font-size: 50;
+    color: #d6daeb;
+    background-color:#000018;
+    width: 100%;
+    overflow-x:auto;
+    margin:0;
+}
+
+/* CLASSES */
+.dark-bg {
+    background-color:#000018;
+    width: 100%;
+}
+
+.nav-link {
+    color:#d6daeb;
+    text-decoration:none;
+    font-size:1em;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.nav-link-2 {
+    color:#d6daeb;
+    text-decoration:none;
+    font-size: 1em;
+}
+
+.main-nav li {
+    display:inline;
+}
+
+.navbar {
+    z-index: 1;
+    overflow:hidden;
+    
+} 
+.main-nav {
+    text-align: right;
+}
+
+/* IDs */
+
+#nav-border {
+    border-bottom: 1px solid rgb(113,71,128);
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+   
+}
